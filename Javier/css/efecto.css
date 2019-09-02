@@ -1,0 +1,33 @@
+section{
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    margin: 50px auto;
+ 
+}
+.box{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+}
+.Izquierda{
+    box-sizing: border-box;
+    height: 100%;
+    width: calc(50% - 25%);
+    background: #000;
+}
+.Derecha{
+    box-sizing: border-box;
+    height: 50%;
+    width: calc(50% + 25%);
+    background: #fff;
+    border-left: 50px solid #000 ;
+    border-bottom: 270px solid transparent;
+    background-image: url('../img/SobreMi.png');
+    background-position: -100px -15px;
+}
